@@ -1,0 +1,145 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragments.PythonFragment">
+
+    <RelativeLayout
+        android:id="@+id/rl_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EEEEEE"
+        tools:context=".MainActivity">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:gravity="center"
+                    android:layout_marginTop="100px"
+                    android:background="#009650"
+                    android:text="Python Плейлист"
+                    android:textColor="@color/white"
+                    android:textSize="23sp" />
+
+                <TextView
+                    android:id="@+id/text_main2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="120px"
+                    android:text="1. Python - Перша програма"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50px"
+                    app:videoId="tw7ror9x32s" />
+
+                <TextView
+                    android:id="@+id/text_main3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="120px"
+                    android:text="2. Python - Змінні і типи"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50px"
+                    app:videoId="Z1Yd7upQsXY" />
+
+                <TextView
+                    android:id="@+id/text_main4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="120px"
+                    android:text="3. Python - Функції"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50px"
+                    app:videoId="NSbOtYzIQI0" />
+
+                <TextView
+                    android:id="@+id/text_main5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="120px"
+                    android:text="4. Python - Умовні оператори"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50px"
+                    app:videoId="AWek49wXGzI" />
+
+                <TextView
+                    android:id="@+id/text_main6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="120px"
+                    android:text="5. Python - Масиви"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50px"
+                    app:videoId="tw7ror9x32s" />
+
+                <TextView
+                    android:id="@+id/text_main7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="120px"
+                    android:text="6. Python - Цикли"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50px"
+                    app:videoId="OnDr4J2UXSA" />
+
+                <TextView
+                    android:id="@+id/text_main8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="120px"
+                    android:text="7. Python - Класи та обєкти"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50px"
+                    app:videoId="wfcWRAxRVBA"
+                    android:layout_marginBottom="200px"/>
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,145 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragments.KotlinFragment">
+
+    <RelativeLayout
+        android:id="@+id/rl_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EEEEEE"
+        tools:context=".MainActivity">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:gravity="center"
+                    android:layout_marginTop="100px"
+                    android:background="#9C27B0"
+                    android:text="Kotlin Плейлист"
+                    android:textColor="@color/white"
+                    android:textSize="23sp" />
+
+                <TextView
+                    android:id="@+id/text_main2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="120px"
+                    android:text="1. Kotlin - Перша програма"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50px"
+                    app:videoId="3J2bmOYKYwE" />
+
+                <TextView
+                    android:id="@+id/text_main3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="120px"
+                    android:text="2. Kotlin - Пошукове вікно"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50px"
+                    app:videoId="U930D2QY43c" />
+
+                <TextView
+                    android:id="@+id/text_main4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="120px"
+                    android:text="3. Kotlin - Функції"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50px"
+                    app:videoId="AL2djC3PAbk" />
+
+                <TextView
+                    android:id="@+id/text_main5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="120px"
+                    android:text="4. Kotlin - Умовні оператори"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50px"
+                    app:videoId="AWek49wXGzI" />
+
+                <TextView
+                    android:id="@+id/text_main6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="120px"
+                    android:text="5. Kotlin - Діапазони"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50px"
+                    app:videoId="T0noLLO3Jzc" />
+
+                <TextView
+                    android:id="@+id/text_main7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="120px"
+                    android:text="6. Kotlin - Цикли"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50px"
+                    app:videoId="92K4Hk6uGEQ" />
+
+                <TextView
+                    android:id="@+id/text_main8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="120px"
+                    android:text="7. Kotlin - Колекції"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50px"
+                    app:videoId="9k6peKiaEaU"
+                    android:layout_marginBottom="200px"/>
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+</FrameLayout>
